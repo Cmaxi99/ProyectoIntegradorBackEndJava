@@ -1,0 +1,73 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Clinica dental</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/stylesGenerales.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark d-flex">
+        <div class="container">
+          <div>
+            <a class="navbar-brand text-light" href="http://localhost:8080/">Clinica dental</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="http://localhost:8080/frontendOdontologo/listadoOdontologo">Listado odontologos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="http://localhost:8080/frontendPaciente/listadoPaciente">Listado pacientes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="http://localhost:8080/frontendTurno/listadoTurno">Listado turnos</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <h1 class="text-center mt-3">Pacientes</h1>
+    <div class="container mt-5">
+        <table class="table text-center">
+            <thead>
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Nombre</th>
+                <th scope="col">Apellido</th>
+                <th scope="col">DNI</th>
+                <th scope="col">Fecha de ingreso</th>
+                <th scope="col">Id Domicilio</th>
+                <th scope="col">Calle</th>
+                <th scope="col">Altura</th>
+                <th scope="col">Localidad</th>
+                <th scope="col">Provincia</th>
+                <th scope="col">Editar</th>
+                <th scope="col">Eliminar</th>
+                <th></th>
+            </tr>
+            </thead>
+            <tbody class="tablaPaciente table-group-divider">
+            <!-- La tabla se llena con los datos que traemos de la api () -->
+            </tbody>
+        </table>
+        <div class="text-center">
+            <button type="button" class="btn btn-primary btn-sm" id="agregarPaciente">Agregar Paciente</button>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.min.js" integrity="sha384-heAjqF+bCxXpCWLa6Zhcp4fu20XoNIA98ecBC1YkdXhszjoejr5y9Q77hIrv8R9i" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.3/dist/sweetalert2.all.min.js"></script>
+    <script src="../script/peticionesPaciente.js"></script>
+</body>
+</html>

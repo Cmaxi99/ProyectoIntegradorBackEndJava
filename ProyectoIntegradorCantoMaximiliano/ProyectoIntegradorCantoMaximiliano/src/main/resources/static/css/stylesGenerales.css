@@ -1,0 +1,16 @@
+table{
+    background: rgba(34,38,118,0.25);
+    -webkit-backdrop-filter: blur(9px);
+    backdrop-filter: blur(9px);
+    border: 1px solid rgba(34,38,118,0.125);
+}
+
+button{
+    border: none;
+    background: none;
+}
+
+.hidden{
+    display: none;
+}
+

@@ -1,0 +1,15 @@
+INFO    2023-04-08 17:53:54,892 [http-nio-8080-exec-1] com.example.ProyectoIntegradorCantoMaximiliano.controller.OdontologoController  - El Odontologo{id=3, nombre='Maxi', apellido='Rodriguez', matricula=1234} fue registrado correctamente.
+INFO    2023-04-08 17:53:55,611 [http-nio-8080-exec-3] com.example.ProyectoIntegradorCantoMaximiliano.controller.OdontologoController  - El Odontologo{id=4, nombre='Maxi', apellido='Rodriguez', matricula=1234} fue registrado correctamente.
+INFO    2023-04-08 17:53:56,153 [http-nio-8080-exec-4] com.example.ProyectoIntegradorCantoMaximiliano.controller.OdontologoController  - El Odontologo{id=5, nombre='Maxi', apellido='Rodriguez', matricula=1234} fue registrado correctamente.
+INFO    2023-04-08 17:53:57,649 [http-nio-8080-exec-5] com.example.ProyectoIntegradorCantoMaximiliano.controller.OdontologoController  - Se accedio a la informacion de todos los odontologos
+INFO    2023-04-08 17:54:12,833 [http-nio-8080-exec-1] com.example.ProyectoIntegradorCantoMaximiliano.controller.OdontologoController  - Se accedio a la informacion de todos los odontologos
+INFO    2023-04-08 17:54:13,805 [http-nio-8080-exec-3] com.example.ProyectoIntegradorCantoMaximiliano.controller.OdontologoController  - Se accedio a la informacion de todos los odontologos
+INFO    2023-04-08 17:54:14,460 [http-nio-8080-exec-4] com.example.ProyectoIntegradorCantoMaximiliano.controller.OdontologoController  - Se accedio a la informacion de todos los odontologos
+INFO    2023-04-08 17:54:14,851 [http-nio-8080-exec-5] com.example.ProyectoIntegradorCantoMaximiliano.controller.OdontologoController  - Se accedio a la informacion de todos los odontologos
+INFO    2023-04-08 18:03:08,980 [http-nio-8080-exec-2] com.example.ProyectoIntegradorCantoMaximiliano.controller.OdontologoController  - Se accedio a la informacion de todos los odontologos
+INFO    2023-04-08 18:03:30,317 [http-nio-8080-exec-3] com.example.ProyectoIntegradorCantoMaximiliano.controller.OdontologoController  - El Odontologo{id=2, nombre='Maxi', apellido='Rodriguez', matricula=1234} fue registrado correctamente.
+INFO    2023-04-08 18:03:31,001 [http-nio-8080-exec-4] com.example.ProyectoIntegradorCantoMaximiliano.controller.OdontologoController  - El Odontologo{id=3, nombre='Maxi', apellido='Rodriguez', matricula=1234} fue registrado correctamente.
+INFO    2023-04-08 18:03:33,432 [http-nio-8080-exec-5] com.example.ProyectoIntegradorCantoMaximiliano.controller.OdontologoController  - Se accedio a la informacion de todos los odontologos
+INFO    2023-04-08 18:09:55,805 [http-nio-8080-exec-8] com.example.ProyectoIntegradorCantoMaximiliano.controller.OdontologoController  - Se accedio a la informacion de todos los odontologos
+INFO    2023-04-08 18:10:10,051 [http-nio-8080-exec-9] com.example.ProyectoIntegradorCantoMaximiliano.controller.OdontologoController  - Se accedio a la informacion de todos los odontologos
+INFO    2023-04-08 18:16:06,102 [http-nio-8080-exec-2] com.example.ProyectoIntegradorCantoMaximiliano.controller.OdontologoController  - Se accedio a la informacion de todos los odontologos
